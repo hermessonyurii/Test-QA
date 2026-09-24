@@ -1,0 +1,3 @@
+@echo off
+echo Abrindo relatorio de testes...
+start "" "C:\projetos\Test-QA\cypress\reports\index.html"

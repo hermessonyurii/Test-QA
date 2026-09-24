@@ -1,0 +1,147 @@
+[
+  {
+    "tag": "BUTTON",
+    "text": "QA 0318.776.226/0001-44",
+    "class": "flex w-full cursor-pointer items-center justify-between gap-3 rounded-lg bg-white/5 px-3 py-2 text-left text-white transition-colors hover:bg-white/10"
+  },
+  {
+    "tag": "A",
+    "text": "Dashboard",
+    "class": "flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors duration-150 text-white/60 hover:bg-white/5 hover:text-white"
+  },
+  {
+    "tag": "A",
+    "text": "Agendamentos",
+    "class": "flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors duration-150 text-white/60 hover:bg-white/5 hover:text-white"
+  },
+  {
+    "tag": "A",
+    "text": "Clientes",
+    "class": "!bg-accent !text-white router-link-exact-active flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors duration-150 text-white/60 hover:bg-white/5 hover:text-white"
+  },
+  {
+    "tag": "A",
+    "text": "Profissionais",
+    "class": "flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors duration-150 text-white/60 hover:bg-white/5 hover:text-white"
+  },
+  {
+    "tag": "A",
+    "text": "Catálogo",
+    "class": "flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors duration-150 text-white/60 hover:bg-white/5 hover:text-white"
+  },
+  {
+    "tag": "A",
+    "text": "Planos",
+    "class": "flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors duration-150 text-white/60 hover:bg-white/5 hover:text-white"
+  },
+  {
+    "tag": "A",
+    "text": "VendasBeta",
+    "class": "flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors duration-150 text-white/60 hover:bg-white/5 hover:text-white"
+  },
+  {
+    "tag": "A",
+    "text": "FinanceiroBeta",
+    "class": "flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors duration-150 text-white/60 hover:bg-white/5 hover:text-white"
+  },
+  {
+    "tag": "A",
+    "text": "Comissões",
+    "class": "flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors duration-150 text-white/60 hover:bg-white/5 hover:text-white"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Período de teste28 dias",
+    "class": "flex cursor-pointer items-center gap-2 rounded-xl border border-border-subtle bg-surface px-2.5 py-1.5 transition-all hover:border-accent hover:bg-accent/5 hover:shadow-sm active:scale-[0.98] w-full justify-between flex cursor-pointer"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "class": "flex items-center justify-center rounded-lg p-2 text-on-surface-muted hover:bg-surface-hover lg:hidden"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Período de teste28 dias",
+    "class": "flex cursor-pointer items-center gap-2 rounded-xl border border-border-subtle bg-surface px-2.5 py-1.5 transition-all hover:border-accent hover:bg-accent/5 hover:shadow-sm active:scale-[0.98] flex cursor-pointer"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "class": "p-button p-component p-button-icon-only p-button-text !h-11 !w-11 !rounded-lg !text-brand transition-colors hover:!bg-gray-100 dark:hover:!bg-surface-hover"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "class": "p-button p-component p-button-icon-only p-button-text !h-11 !w-11 !rounded-lg !text-on-surface-muted transition-colors hover:!bg-gray-100 dark:hover:!bg-surface-hover"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "class": "p-button p-component p-button-icon-only p-button-text !h-11 !w-11 !rounded-lg !text-on-surface-muted hover:!bg-surface-hover"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "H0Hermesson QA 01hermessonqa01@gmail.com",
+    "class": "flex h-11 items-center gap-2 rounded-lg px-2 transition-colors hover:bg-gray-100 dark:hover:bg-surface-hover"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Todos",
+    "class": "rounded-lg font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-60 px-3.5 py-1.5 text-sm bg-blue-500 text-white shadow-sm"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Hoje",
+    "class": "rounded-lg font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-60 px-3.5 py-1.5 text-sm cursor-pointer text-gray-600 enabled:hover:bg-white enabled:hover:text-gray-900 dark:text-zinc-300 dark:enabled:hover:bg-zinc-700 dark:enabled:hover:text-white"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "7 dias",
+    "class": "rounded-lg font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-60 px-3.5 py-1.5 text-sm cursor-pointer text-gray-600 enabled:hover:bg-white enabled:hover:text-gray-900 dark:text-zinc-300 dark:enabled:hover:bg-zinc-700 dark:enabled:hover:text-white"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "30 dias",
+    "class": "rounded-lg font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-60 px-3.5 py-1.5 text-sm cursor-pointer text-gray-600 enabled:hover:bg-white enabled:hover:text-gray-900 dark:text-zinc-300 dark:enabled:hover:bg-zinc-700 dark:enabled:hover:text-white"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Personalizado",
+    "class": "rounded-lg font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-60 px-3.5 py-1.5 text-sm cursor-pointer text-gray-600 enabled:hover:bg-white enabled:hover:text-gray-900 dark:text-zinc-300 dark:enabled:hover:bg-zinc-700 dark:enabled:hover:text-white"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "class": "relative flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-border-strong text-on-surface-muted transition-colors hover:bg-surface-muted md:hidden"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Novo cliente",
+    "class": "p-button p-component !h-[40px] !rounded-xl !border-accent !bg-accent !px-5 !text-sm !text-white shadow-sm transition-colors hover:!border-accent-hover hover:!bg-accent-hover max-md:!hidden"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Anterior",
+    "class": "p-paginator-prev p-disabled"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Próxima",
+    "class": "p-paginator-next p-disabled"
+  },
+  {
+    "tag": "A",
+    "text": "Termos de uso",
+    "class": "transition-colors hover:text-brand hover:underline"
+  },
+  {
+    "tag": "A",
+    "text": "Política de privacidade",
+    "class": "transition-colors hover:text-brand hover:underline"
+  },
+  {
+    "tag": "A",
+    "text": "Termos de agendamento",
+    "class": "transition-colors hover:text-brand hover:underline"
+  }
+]

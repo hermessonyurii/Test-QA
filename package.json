@@ -1,0 +1,22 @@
+{
+  "name": "test-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:sgmaster": "cypress run --spec cypress/e2e/sgmaster/**",
+    "test:sgagenda": "cypress run --spec cypress/e2e/sgagenda/**",
+    "test:headed": "cypress run --headed",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^16.1.0",
+    "cypress-mochawesome-reporter": "^5.0.0",
+    "dotenv": "^18.0.3"
+  }
+}

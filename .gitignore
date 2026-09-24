@@ -1,0 +1,21 @@
+# Dependências
+node_modules/
+
+# Credenciais e segredos (NUNCA versionar)
+cypress.env.json
+.env
+*.local
+
+# Relatórios e evidências gerados na execução
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+cypress/downloads/
+
+# Sistema e IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+npm-debug.log*
