@@ -1,4 +1,4 @@
-# Testes Automatizados QA — SG Master e SG Agenda
+# Testes Automatizados QA - SG Master e SG Agenda
 
 Projeto de testes **End-to-End (E2E)** com **Cypress 16.1.0** e relatório **Mochawesome**.
 
@@ -21,7 +21,7 @@ Cobre dois sistemas:
 ## Configuração local
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone https://github.com/hermessonyurii/Test-QA
 cd Test-QA
 npm install
 ```
