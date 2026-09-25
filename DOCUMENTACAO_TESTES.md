@@ -1,4 +1,4 @@
-# Documentação técnica — Testes Automatizados QA
+# Documentação técnica - Testes Automatizados QA
 
 **Ferramenta:** Cypress 16.1.0 + cypress-mochawesome-reporter  
 **Sistemas:** SG Master (Keycloak / SSO) e SG Agenda (admin Vue + PrimeVue)  
@@ -65,7 +65,7 @@ Test-QA/
 
 ## 4. Matriz de casos de teste
 
-### 4.1 SG Master — `cypress/e2e/sgmaster/login_sgbr.cy.js`
+### 4.1 SG Master - `cypress/e2e/sgmaster/login_sgbr.cy.js`
 
 Ambiente: `https://auth.sgbr.com.br` (Keycloak) → `https://sgmaster.com.br/empresas`
 
@@ -78,7 +78,7 @@ Ambiente: `https://auth.sgbr.com.br` (Keycloak) → `https://sgmaster.com.br/emp
 | CT05 | Fluxo “Esqueceu sua senha?” e volta ao login | Recuperação de acesso |
 | CT06 | Login válido + redirect SSO para Empresas | Caminho feliz do produto |
 
-### 4.2 SG Agenda — autenticação (`01_autenticacao.cy.js`)
+### 4.2 SG Agenda - autenticação (`01_autenticacao.cy.js`)
 
 Ambiente: `https://admin.sgagenda.com.br/` (tenant `testeqa-03`)
 
@@ -93,7 +93,7 @@ Ambiente: `https://admin.sgagenda.com.br/` (tenant `testeqa-03`)
 
 Este spec **não** reutiliza sessão autenticada: começa sempre como visitante (`visitarLoginSgAgenda`).
 
-### 4.3 SG Agenda — layout (`02_responsividade_e_layout.cy.js`)
+### 4.3 SG Agenda - layout (`02_responsividade_e_layout.cy.js`)
 
 | ID | Viewport | O que valida |
 |---|---|---|
@@ -103,7 +103,7 @@ Este spec **não** reutiliza sessão autenticada: começa sempre como visitante 
 | CT10 | 375×667 | Mobile (botão visível, overflow controlado) |
 | CT11 | 1440×900 | Alternância de tema (claro/escuro) |
 
-### 4.4 SG Agenda — cadastros (`03_cadastros_e_exclusao.cy.js`)
+### 4.4 SG Agenda - cadastros (`03_cadastros_e_exclusao.cy.js`)
 
 | ID | Módulo | O que valida |
 |---|---|---|
@@ -112,7 +112,7 @@ Este spec **não** reutiliza sessão autenticada: começa sempre como visitante 
 | CT14 | Catálogo / Produtos | Aba Produtos e formulário novo produto |
 | CT15 | Planos | Listagem e formulário de plano |
 
-### 4.5 SG Agenda — vendas e agenda (`04_vendas_e_agendamentos.cy.js`)
+### 4.5 SG Agenda - vendas e agenda (`04_vendas_e_agendamentos.cy.js`)
 
 | ID | Módulo | O que valida |
 |---|---|---|
@@ -129,9 +129,9 @@ Quando os 4 specs do Agenda rodavam juntos, 01 e 02 falhavam de forma intermiten
 
 Solução em `commands.js`:
 
-- `visitarLoginSgAgenda` — limpa cookies, storages, IndexedDB e sessão Cypress; exige tela “Bem-vindo!”.
-- `loginSgAgendaPorFormulario` — login real pela UI (CT06).
-- `loginSgAgenda` — `cy.session` com cache entre specs 02–04 (mais rápido e estável).
+- `visitarLoginSgAgenda` - limpa cookies, storages, IndexedDB e sessão Cypress; exige tela “Bem-vindo!”.
+- `loginSgAgendaPorFormulario` - login real pela UI (CT06).
+- `loginSgAgenda` - `cy.session` com cache entre specs 02–04 (mais rápido e estável).
 
 ---
 
