@@ -66,5 +66,5 @@ Após a execução, o relatório HTML fica em `cypress/reports/index.html`.
 
 ## Documentação
 
-- [DOCUMENTACAO_TESTES.md](DOCUMENTACAO_TESTES.md) — estrutura, matriz de CTs e como cada peça funciona
-- [RELATORIO_DE_TESTES_ENTREGA.md](RELATORIO_DE_TESTES_ENTREGA.md) — relatório executivo para apresentação
+- [DOCUMENTACAO_TESTES.md](DOCUMENTACAO_TESTES.md) - estrutura, matriz de CTs e como cada peça funciona
+- [RELATORIO_DE_TESTES_ENTREGA.md](RELATORIO_DE_TESTES_ENTREGA.md) - relatório executivo para apresentação
